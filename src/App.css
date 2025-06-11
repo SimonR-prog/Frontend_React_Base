@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+    --font: "Inter", sans-serif;
+
+    /* SECONDARY: */
+    --secondary-110: #1C2346;
+    --secondary-100: #37437D;
+    --secondary-90: #5562A2;
+    --secondary-70: #707DBF;
+    --secondary-60: #ABB4DD;
+    --secondary-50: #D3DAF9;
+
+    /* YELLOW: */
+    --yellow-100: #FFCA39;
+    --yellow-90: #FFEFC3;
+
+    /* GREY: */
+    --grey-10: #FFFFFF;
+    --grey-20: #F7F7F7;
+    --grey-30: #EDEDED;
+    --grey-40: #E0E0E1;
+    --grey-50: #C3C3C4;
+    --grey-60: #9F9FA1;
+    --grey-70: #777779;
+    --grey-80: #636365;
+    --grey-90: #434345;
+    --grey-100: #1E1E20;
+
+    /* FONT WEIGHTS: */
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+
+    /* BACKGROUND  */
+    --background-color: var(--grey-10);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+html, body {
+    font-family: var(--font);
+    font-weight: var(--regular);
+    font-style: normal;
+    font-size: 16px;
+    color: var(--grey-100);
+    background-color: var(--background-color);
+}
+
+/* HEADERS */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: var(--semibold);
+    color: var(--grey-100);
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER FONT-SIZE */
+.h1, h1 { font-size: 32px; }
+.h2, h2 { font-size: 28px; }
+.h3, h3 { font-size: 26px; }
+.h4, h4 { font-size: 24px; }
+.h5, h5 { font-size: 22px; }
+.h6, h6 { font-size: 20px; }
+
